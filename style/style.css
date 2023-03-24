@@ -52,7 +52,7 @@ ul {
   
   li a:hover {
     background-color:#eb7f57;
-    ;
+    cursor: pointer;
   }
 
   .Active{
@@ -62,13 +62,18 @@ ul {
     display: flex;
     flex-direction: column;
   }
+  .row-1{
+    display: inline;
+  }
   .portrait-div{
     float: left;
     width:50%;
-    display:grid;
   }
   .portrait{
-    
+    display: block;
+    margin:auto;
+    margin-top: 300px;
     width: 333px;
     height: 500px;
+    border-radius: 5%;
   }
