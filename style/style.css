@@ -27,8 +27,8 @@ header {
     margin: auto;
 }
     h2{
-    font-style: italic;
-    font-family: cursive;
+      font-family: 'Cedarville Cursive', cursive;
+      font-style: italic;
 }
 ul {
     list-style-type: none;
