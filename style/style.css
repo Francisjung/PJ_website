@@ -1,12 +1,8 @@
-*{
-    overflow: hidden;
-}
+
 body {
-    background-image: url("../assets/banner.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     display: flex;
     flex-direction: column;
+    background-color: #F8F0D2;
   }
 header {
     width: 100%;
@@ -65,15 +61,19 @@ ul {
   .row-1{
     display: inline;
   }
+  .banner-img{
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+  }
   .portrait-div{
     float: left;
     width:50%;
   }
   .portrait{
-    display: block;
+    display: inline;
     margin:auto;
-    margin-top: 300px;
-    width: 333px;
-    height: 500px;
+    margin-left: 10%;
+    width: 33%;
     border-radius: 5%;
   }
