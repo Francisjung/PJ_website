@@ -73,7 +73,21 @@ ul {
   .portrait{
     display: inline;
     margin:auto;
-    margin-left: 10%;
+    margin-left: 35%;
     width: 33%;
     border-radius: 5%;
   }
+  .greeting{
+    margin-top: 150px;
+    font-size: 48px;
+}
+.main-text-section{
+  width:66%;
+  margin: auto;
+  font-size: 24px;
+}
+.page-title{
+  margin-left: 15%;
+  margin-top: 250px;
+  font-size: 48px;
+}
