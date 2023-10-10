@@ -26,7 +26,7 @@ header {
       font-family: 'Cedarville Cursive', cursive;
       font-style: italic;
 }
-ul {
+.page-header {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -34,11 +34,11 @@ ul {
     background-color:#F15A24;
   }
   
-  li {
+  .header-li {
     float: left;
   }
   
-  li a {
+  .header-li a {
     display: block;
     color: black;
     text-align: center;
@@ -46,7 +46,7 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover {
+  .header-li a:hover {
     background-color:#eb7f57;
     cursor: pointer;
   }
@@ -73,12 +73,13 @@ ul {
   .portrait{
     display: inline;
     margin:auto;
+    margin-top: 300px;
     margin-left: 35%;
     width: 33%;
     border-radius: 5%;
   }
   .greeting{
-    margin-top: 150px;
+    margin-top: 600px;
     font-size: 48px;
 }
 .main-text-section{
@@ -87,7 +88,15 @@ ul {
   font-size: 24px;
 }
 .page-title{
-  margin-left: 15%;
   margin-top: 250px;
   font-size: 48px;
+  text-align: center;
+}
+.vita-ul{
+  margin-left: 25%;
+  font-size: larger;
+  line-height: 2em;
+}
+.vita-li{
+
 }
