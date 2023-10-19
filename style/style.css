@@ -14,6 +14,9 @@ header {
     justify-content: center;
     align-items: center;
     background: #F15A24;
+    /*background: url("https://raw.githubusercontent.com/Francisjung/PJ_website/main/assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;*/
     left: 0;
     top:0;
 }
